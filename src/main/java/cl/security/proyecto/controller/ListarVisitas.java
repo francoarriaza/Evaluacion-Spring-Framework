@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class ListarVisitas {
 	
-	@RequestMapping(value = "/listarvisitas", method = RequestMethod.GET)
+	@RequestMapping(value = "/visitas", method = RequestMethod.GET)
 	public String visitas(Locale locale, Model model) {
 		
 		return "listarvisitas";

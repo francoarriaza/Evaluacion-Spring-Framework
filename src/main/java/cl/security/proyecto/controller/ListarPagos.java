@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class ListarPagos {
-	@RequestMapping(value = "/listarpagos", method = RequestMethod.GET)
+	@RequestMapping(value = "/pagos", method = RequestMethod.GET)
 	public String pagos(Locale locale, Model model) {
 		
 		return "listarpagos";
     }
 	
-	@RequestMapping(value = "/crearpagos", method = RequestMethod.GET)
+	@RequestMapping(value = "/crearpago", method = RequestMethod.GET)
 	public String newpagos(Locale locale, Model model) {
 		
 		return "crearpagos";

@@ -15,19 +15,19 @@
 
 <section>
   <h3>Objetivos</h3>
-    <p>El objetivo de este sistema, es poder llevar un control de géstion de los accidentes, visitas en terreno y cursos de prevencion</p>
+    <p>El objetivo de este sistema, es poder llevar un control de géstion de los accidentes, visitas en terreno y cursos de prevención</p>
 </section>
     
 <section>
   <h3>Quien debe usarlo</h3>
     <p>Cliente: es aquien va dirijido el sistema, se lleva control de los cursos realizados y accidentes reportados </p>
-    <p>Administrativo: </p>
+    <p>Administrativo: lleva el control de los usuarios y los roles de estos. </p>
     <p></p>
 </section>
     
 <section>
   <h3>Procesos de las plataformas</h3>
-    <p></p>
+    <p>los porcesos iplementados hasta el memento, es la creacion de cuentas, pagos y gestion de visitas</p>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

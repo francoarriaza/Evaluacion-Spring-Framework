@@ -25,7 +25,7 @@
           <a class="nav-link" href="${pageContext.request.contextPath}/pagos">Pagos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="${pageContext.request.contextPath}/login">Ingresar</a>
         </li>
       </ul>
     </div>

@@ -9,7 +9,7 @@
 		
 	<http auto-config="true">
 		<intercept-url pattern="/" access="permitAll"/>
-		<intercept-url pattern="/inicio" access="hasAnyAuthority('CLIENTE', '')"/>
+		<intercept-url pattern="/inicio" access="hasAnyAuthority('CLIENTE', 'ADMIN', 'PROFE')"/>
 		
 		 
 		<form-login login-page="/login"

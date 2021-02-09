@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
 <%@include file="menu.jsp" %>
@@ -26,7 +27,7 @@
 				<tr>
 					<td><c:out value="${p.getIdPago()}"></c:out></td>
 					<td><c:out value="${p.getMesPago()}"></c:out></td>
-					<td><c:out value="${p.getañoPago}"></c:out></td>
+					<td><c:out value="${p.getanoPago}"></c:out></td>
 					<td><c:out value="${p.getRutCliente()}"></c:out></td>
 					<td><c:out value="${p.getNombreCliente()}"></c:out></td>
 				</c:forEach>

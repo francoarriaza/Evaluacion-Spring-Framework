@@ -11,7 +11,7 @@ public class Pago {
 	private int idPago;
 	
 	private String mesPago;
-	private String añoPago;
+	private String anoPago;
 	private String rutCliente;
 	private String nombreCliente;
 	
@@ -19,11 +19,11 @@ public class Pago {
 		
 	}
 
-	public Pago(int idPago, String mesPago, String añoPago, String rutCliente, String nombreCliente) {
+	public Pago(int idPago, String mesPago, String anoPago, String rutCliente, String nombreCliente) {
 		super();
 		this.idPago = idPago;
 		this.mesPago = mesPago;
-		this.añoPago = añoPago;
+		this.anoPago = anoPago;
 		this.rutCliente = rutCliente;
 		this.nombreCliente = nombreCliente;
 	}
@@ -44,12 +44,12 @@ public class Pago {
 		this.mesPago = mesPago;
 	}
 
-	public String getañoPago() {
-		return añoPago;
+	public String getanoPago() {
+		return anoPago;
 	}
 
-	public void setañoPago(String añoPago) {
-		this.añoPago = añoPago;
+	public void setañoPago(String anoPago) {
+		this.anoPago = anoPago;
 	}
 
 	public String getRutCliente() {
